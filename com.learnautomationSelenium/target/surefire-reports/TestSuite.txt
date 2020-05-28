@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 2, Errors: 0, Skipped: 10, Time elapsed: 323.169 s <<< FAILURE! - in TestSuite
+setup(com.qa.tests.UserPageTest)  Time elapsed: 30.522 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F3HIC5N', ip: '192.168.0.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: driver.version: ChromeDriver
+	at com.qa.tests.UserPageTest.setup(UserPageTest.java:36)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:18695/status] to be available after 20008 ms
+	at com.qa.tests.UserPageTest.setup(UserPageTest.java:36)
+Caused by: java.util.concurrent.TimeoutException
+	at com.qa.tests.UserPageTest.setup(UserPageTest.java:36)
+
+setup(com.qa.tests.MediaPageTest)  Time elapsed: 135.923 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 4.906
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F3HIC5N', ip: '192.168.0.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\all\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:51146}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a8bebe8a7aa47c0aa4da6ad52ba89cd8
+	at com.qa.tests.MediaPageTest.setup(MediaPageTest.java:27)
+

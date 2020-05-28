@@ -1,0 +1,10 @@
+com\qa\pages\ContactsPage.class
+com\qa\pages\LoginPage.class
+com\qa\pages\MediaPage.class
+com\qa\base\BaseClass.class
+com\qa\pages\HomePage.class
+com\qa\ExtentReportListener\ExtentReporterNG.class
+com\qa\pages\Toolspage.class
+com\qa\util\Utility.class
+com\qa\pages\UserPage.class
+com\qa\util\WebEventListener.class

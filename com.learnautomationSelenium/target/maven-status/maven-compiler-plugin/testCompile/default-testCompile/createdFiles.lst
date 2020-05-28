@@ -1,0 +1,5 @@
+com\qa\tests\ToolPageTest.class
+com\qa\tests\UserPageTest.class
+com\qa\tests\LoginTestValidate.class
+com\qa\tests\MediaPageTest.class
+com\qa\tests\HomePageTestValidate.class
